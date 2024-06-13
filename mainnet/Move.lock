@@ -2,7 +2,7 @@
 
 [move]
 version = 2
-manifest_digest = "C64F227AF9E5BA54274F861F545EB12A0B17C017C2921224303A018C3FB24BC8"
+manifest_digest = "759B7ADEB09EED9399776338CC58A75AA7F3FC39B51F34EE5D5E0CDDC5D2BED0"
 deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { name = "Sui" },
@@ -23,7 +23,7 @@ dependencies = [
 
 [[move.package]]
 name = "flowxswap"
-source = { local = "../../flowx-interface" }
+source = { git = "https://github.com/TokenUtility/flowx-interface.git", rev = "mainnet", subdir = "" }
 
 dependencies = [
   { name = "Sui" },
