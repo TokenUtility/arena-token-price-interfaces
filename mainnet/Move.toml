@@ -1,0 +1,12 @@
+[package]
+name = "TokenUtilityPrice"
+version = "0.0.1"
+published-at = "0x7bfdf74432b901b677b260e805ca894066ca8398c4fcfc73aa6e4d96862e0edb"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.26.2" }
+flowxswap = { local = "../../flowx-interface"}
+
+[addresses]
+TokenUtilityPrice = "0x0"
+sui = "0x2"
