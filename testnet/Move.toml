@@ -1,10 +1,11 @@
 [package]
 name = "TokenUtilityPrice"
 version = "0.0.1"
-edition = "2024.beta"
+published-at = "0xf57d3709889f0934b957ceceafd2225da265258fc71a7beab2ea1b2611fd1ab7"
 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet" }
+TurbosCLMM = { git = "https://github.com/turbos-finance/turbos-sui-move-interface.git", subdir = "clmm", rev = "testnet" }
 
 [addresses]
 TokenUtilityPrice = "0x0"
